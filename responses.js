@@ -49,7 +49,7 @@ function getBotResponse(input) {
 
     } else if (lowerInput === "5") {
         return "Si necesitas contactar con nuestro soporte, puedes hacerlo vía WhatsApp:<br>" +
-            "<a href='https://wa.me/923459861?text=Comunicate%20con%20MovieCity%20estamos%20para%20servirte' target='_blank'>Haz clic aquí para contactarnos por WhatsApp</a>";
+            "<a href='https://wa.me/923459861?text=Hola%20MovieCity%20solicito%20su%20ayuda' target='_blank'>Haz clic aquí para contactarnos por WhatsApp</a>";
 
     } else if (["1.1", "1.2", "1.3", "1.4"].includes(lowerInput)) {
         switch (lowerInput) {
@@ -114,6 +114,6 @@ function getBotResponse(input) {
         }
     } else {
         return "Lo siento, no entendí tu mensaje. Recuerda que debes colocar solo el número solicitado, no puntos, comas u otro dato adicional. En caso desees hacernos otras consultas puedes comunicarte al siguiente número:<br>" +
-            "<a href='https://wa.me/923459861?text=Comunicate%20con%20MovieCity%20estamos%20para%20servirte' target='_blank'>Haz clic aquí para contactarnos por WhatsApp</a>";
+            "<a href='https://wa.me/923459861?text=Hola%20MovieCity%20solicito%20su%20ayuda' target='_blank'>Haz clic aquí para contactarnos por WhatsApp</a>";
     }
 }
